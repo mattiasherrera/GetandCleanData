@@ -38,7 +38,8 @@ fBodyGyroJerkMag
 
 The column names are direct descendents of these variables indicating if the mean() or the standard deviation std() was taken
 
-IMPORTANT NOTE: In the tidy_data all the values are the mean of the data by subject and activity
+IMPORTANT NOTES: In the tidy_data all the values are the mean of the data by subject and activity
+                 All variables (except Subject_ID and Activity) have beeen normalized and are between -1 and 1
 
 Column Names
 
