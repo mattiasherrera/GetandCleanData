@@ -106,5 +106,5 @@ combined_data <- combined_data[,selectfields]
 ########################################################################################
 ## 5. Creates a second, independent tidy data set with the average of each
 ##    variable for each activity and each subject
-melt_data <- melt(combined_data2,id.vars = c("Subject_ID","Activity"))
+melt_data <- melt(combined_data,id.vars = c("Subject_ID","Activity"))
 tidy_data <- dcast(a, Subject_ID + Activity ~ variable,mean)
